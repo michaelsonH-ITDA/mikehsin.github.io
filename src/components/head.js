@@ -30,18 +30,17 @@ const Head = ({ title, description, image }) => {
     defaultDescription,
     siteUrl,
     defaultImage,
-    twitterUsername,
   } = site.siteMetadata;
 
   const seo = {
-    title: title || defaultTitle,
+    title: title,
     description: description || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,
   };
 
   return (
-    <Helmet title={title} defaultTitle={seo.title} titleTemplate={`%s | ${defaultTitle}`}>
+    <Helmet title={title} defaultTitle={title} titleTemplate={`%s`}>
       <html lang="en" />
 
       <meta name="description" content={seo.description} />
@@ -54,7 +53,6 @@ const Head = ({ title, description, image }) => {
       <meta property="og:type" content="website" />
 
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:creator" content={twitterUsername} />
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
@@ -73,7 +71,7 @@ Head.propTypes = {
 };
 
 Head.defaultProps = {
-  title: null,
+  title: "Mike Hsin",
   description: null,
   image: null,
 };

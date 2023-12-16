@@ -82,7 +82,6 @@ const StyledPic = styled.div`
       position: relative;
       border-radius: var(--border-radius);
       mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
       transition: var(--transition);
     }
 
@@ -100,7 +99,7 @@ const StyledPic = styled.div`
     &:before {
       top: 0;
       left: 0;
-      background-color: var(--navy);
+      background-color: var(--slate);
       mix-blend-mode: screen;
     }
 
@@ -125,7 +124,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['JavaScript (ES6+)', 'Python', 'React', 'Java', 'SQL', 'Git'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +134,24 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Mike and I am a dynamic software engineer and an enthusiastic web developer.
+              My fascination with technology began at <a href='https://www.nscc.ca/'>Nova Scotia Community College</a> 
+              {' '}and further flourished during my studies in Applied Computer Science at 
+              <a href='https://www.dal.ca/'>Dalhousie University</a>. 
+              This comprehensive academic journey was capped off with advanced studies 
+              in Software Systems Engineering at <a href='https://www.ucl.ac.uk/'>University College London</a>, 
+              equipping me with a deep and broad understanding of the tech world.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              During my time at UCL, I’ve had the privilege of working on some projects with{' '} 
+              <a href='https://www.bloomberg.com/company/offices/bloomberg-london/'>Bloomberg London</a> and{' '} 
+              <a href='https://go.ifrc.org/'>IFRC</a>. These experiences have honed my skills in software development, 
+              from ideation to implementation, making me adept at translating complex technological concepts into practical solutions. 
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              I'm also skilled in crafting user-centric websites and leveraging data analytics for strategic business insights.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

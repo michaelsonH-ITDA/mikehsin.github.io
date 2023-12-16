@@ -65,8 +65,11 @@ const Hero = () => {
   const four = (
     <>
       <p>
-      I am a recent M.Sc. graduate in Software Systems Engineering from University College London (UCL).
-      My journey in IT is marked by a relentless pursuit of excellence and a deep-rooted passion for software engineering.
+      With an M.Sc. in Software Systems Engineering from University College London (UCL) and 
+      a Bachelor's in Applied Computer Science from Dalhousie University, 
+      I am a dedicated IT professional actively seeking opportunities to contribute 
+      and grow in the field of software engineering.
+      
       </p>
     </>
   );
@@ -76,7 +79,7 @@ const Hero = () => {
       href="#"
       target="_blank"
       rel="noreferrer">
-      Get in touch with me!
+      Contact to hire me!
     </a>
   );
 
