@@ -2,12 +2,13 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: 'Mike Hsin',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'Mike Hsi is a recent Software Systems Engineeering graduate who specializes in solving software problems.',
     siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    // The above link needs to fix!!!!!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,8 +21,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Mike Hsin',
+        short_name: 'Mike Hsin',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
