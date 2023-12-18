@@ -8,6 +8,8 @@
   The first iteration of <a href="https://ca.linkedin.com/in/yi-hsien-hsin-a126b9179" target="_blank">Yi-Hsien (Mike) Hsin</a>'s portfolio website built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted on <a href="https://app.netlify.com/" target="_blank">Netlify</a>
 </p>
 
+![demo](https://raw.githubusercontent.com/mikehsin/v4/main/src/images/demo.png)
+
 ### TL;DR
 
 Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
