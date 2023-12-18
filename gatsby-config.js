@@ -5,10 +5,11 @@ module.exports = {
     title: 'Mike Hsin',
     description:
       'Mike Hsi is a recent Software Systems Engineeering graduate who specializes in solving software problems.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://mikehsin.netlify.app/', // No trailing slash allowed!
     // The above link needs to fix!!!!!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
+    pathPrefix: '/mikehsin.github.io',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
