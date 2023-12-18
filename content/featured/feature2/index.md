@@ -1,15 +1,15 @@
 ---
 date: '2'
-title: 'Renovate a small business website'
+title: 'Online Barter Trader (Android)'
 cover: './demo.png'
-
-external: 'https://michaelsonhsin.wixsite.com/jang-horng'
+github: 'https://github.com/mikehsin/Online-Barter-Trader'
 tech:
-  - Figma
-  - Wix
-  - CMS
-  - Content Marketing
-  - Social Media Marketing
+  - Android
+  - Java
+  - Gradle
+  - Firebase
+  - JUnit
+  - Espresso
 ---
 
-A local small business's website was redesigned and optimized, utilizing software engineering methodologies and strategic digital marketing approaches to stimulate business growth and enhance online visibility
+The Online Barter Trader app is designed for the local exchange of used goods. It connects users within their local areas to trade items. Users can operate in two roles: provider and receiver, maintaining a balance of give-and-take in the community.
