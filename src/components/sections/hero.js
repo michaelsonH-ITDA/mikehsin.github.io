@@ -3,6 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import { email } from '@config';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -65,20 +66,15 @@ const Hero = () => {
   const four = (
     <>
       <p>
-      With an M.Sc. in Software Systems Engineering from University College London (UCL) and 
-      a Bachelor's in Applied Computer Science from Dalhousie University, 
-      I am a dedicated IT professional actively seeking opportunities to contribute 
-      and grow in the field of software engineering.
-      
+        With an M.Sc. in Software Systems Engineering from University College London (UCL) and a
+        Bachelor's in Applied Computer Science from Dalhousie University, I am a dedicated IT
+        professional actively seeking opportunities to contribute and grow in the field of software
+        engineering.
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="#"
-      target="_blank"
-      rel="noreferrer">
+    <a className="email-link" href={`mailto:${email}`}>
       Contact to hire me!
     </a>
   );

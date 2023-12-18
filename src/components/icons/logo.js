@@ -13,10 +13,11 @@ const IconLogo = () => (
           strokeLinejoin="round"
           points="39 0 0 22 0 67 39 90 78 68 78 23"
         />
-        <text x="10" y="60" fill="currentColor" fontSize="55px" fontFamily="Consolas">辛</text>
+        <text x="10" y="65" fill="currentColor" fontSize="55px" fontFamily="Consolas">
+          辛
+        </text>
       </g>
     </g>
-    
   </svg>
 );
 
