@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://mikehsin.netlify.app/sitemap.xml
-Host: https://mikehsin.netlify.app
