@@ -48,11 +48,17 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
    npm run build
    ```
 
-1. Preview the site as it will appear once deployed
+2. Preview the site as it will appear once deployed
 
    ```sh
    npm run serve
    ```
+
+3. Deploy the public folder(gatsby project) to gh-page branch
+   ```sh
+   npx gh-pages -d public
+   ```
+   Make sure you build the gatsby project first
 
 ## 🎨 Color Reference
 
