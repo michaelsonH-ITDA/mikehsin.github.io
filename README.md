@@ -42,11 +42,13 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
 
 ## 🚀 Building and Running for Production
 
-1. Generate a full static production build
+1. Generate a full static production build (public folder)
 
    ```sh
    npm run build
    ```
+
+   > The contents of the public folder are what it was deployed to a web server or hosting service. This folder represents the final, production-ready version of the site.
 
 2. Preview the site as it will appear once deployed
 
@@ -58,7 +60,7 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
    ```sh
    npx gh-pages -d public
    ```
-   Make sure you build the gatsby project first
+   > This command pushes the contents of the public folder to the gh-pages branch. Make sure the public folder is updated
 
 ## 🎨 Color Reference
 
