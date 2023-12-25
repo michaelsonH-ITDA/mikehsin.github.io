@@ -134,24 +134,29 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Mike and I am a dynamic software engineer and an enthusiastic web developer.
-              My fascination with technology began at <a href='https://www.nscc.ca/'>Nova Scotia Community College</a> 
-              {' '}and further flourished during my studies in Applied Computer Science at 
-              <a href='https://www.dal.ca/'>Dalhousie University</a>. 
-              This comprehensive academic journey was capped off with advanced studies 
-              in Software Systems Engineering at <a href='https://www.ucl.ac.uk/'>University College London</a>, 
-              equipping me with a deep and broad understanding of the tech world.
+              Hello! My name is Mike and I am a dynamic software engineer and an enthusiastic web
+              developer. My fascination with technology began at{' '}
+              <a href="https://www.nscc.ca/">Nova Scotia Community College</a> and further
+              flourished during my studies in Applied Computer Science at{' '}
+              <a href="https://www.dal.ca/">Dalhousie University</a>. This comprehensive academic
+              journey was capped off with advanced studies in Software Systems Engineering at{' '}
+              <a href="https://www.ucl.ac.uk/">University College London</a>, equipping me with a
+              deep and broad understanding of the tech world.
             </p>
 
             <p>
-              During my time at UCL, I’ve had the privilege of working on some projects with{' '} 
-              <a href='https://www.bloomberg.com/company/offices/bloomberg-london/'>Bloomberg London</a> and{' '} 
-              <a href='https://go.ifrc.org/'>IFRC</a>. These experiences have honed my skills in software development, 
-              from ideation to implementation, making me adept at translating complex technological concepts into practical solutions. 
+              During my time at UCL, I’ve had the privilege of working on some projects with{' '}
+              <a href="https://www.bloomberg.com/company/offices/bloomberg-london/">
+                Bloomberg London
+              </a>{' '}
+              and <a href="https://go.ifrc.org/">IFRC</a>. These experiences have honed my skills in
+              software development, from ideation to implementation, making me adept at translating
+              complex technological concepts into practical solutions.
             </p>
 
             <p>
-              I'm also skilled in crafting user-centric websites and leveraging data analytics for strategic business insights.
+              I'm also skilled in crafting user-centric websites and leveraging data analytics for
+              strategic business insights.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
