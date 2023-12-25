@@ -2,6 +2,7 @@
 date: '2020-03-01'
 title: 'Quiz App (Android)'
 github: 'https://github.com/mikehsin/quizApp'
+external: 'https://github.com/mikehsin/quizApp'
 tech:
   - Java
   - Gradle

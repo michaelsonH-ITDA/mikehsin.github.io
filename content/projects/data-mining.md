@@ -2,7 +2,7 @@
 date: '2021-03-01'
 title: 'Association Rule Mining'
 github: 'https://github.com/mikehsin/Association-Rule-Mining'
-
+external: 'https://github.com/mikehsin/Association-Rule-Mining'
 tech:
   - python
   - Apriori Association Rule
