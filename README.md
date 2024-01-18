@@ -2,7 +2,7 @@
   <img alt="Logo" src="https://raw.githubusercontent.com/mikehsin/mikehsin.github.io/main/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  Yi-Hsien (Mike) Hsin Portfolio
+  Mike Hsin Portfolio
 </h1>
 <p align="center">
   The first iteration of <a href="https://ca.linkedin.com/in/yi-hsien-hsin-a126b9179" target="_blank">Yi-Hsien (Mike) Hsin</a>'s portfolio website built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted on <a href="https://app.netlify.com/" target="_blank">Netlify</a>
@@ -12,7 +12,7 @@
 
 ### TL;DR
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+Yes, you can fork this repo. Please give the designer the proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
 
 ## 🛠 Installation & Set Up
 

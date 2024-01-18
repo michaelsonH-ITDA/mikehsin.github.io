@@ -38,22 +38,19 @@ const StyledCredit = styled.div`
   }
 `;
 
-const Footer = () => {
-
-  return (
-    <StyledFooter>
-      <StyledCredit tabindex="-1">
-        <a href="https://ca.linkedin.com/in/yi-hsien-hsin-a126b9179">
-          <div>Built by Mike Hsin</div>
-        </a>
-        <br/>
-        <a href="https://github.com/bchiang7/v4">
-          <div>Designed by Brittany Chiang</div>
-        </a>
-      </StyledCredit>
-    </StyledFooter>
-  );
-};
+const Footer = () => (
+  <StyledFooter>
+    <StyledCredit tabindex="-1">
+      <a href="https://www.linkedin.com/in/mike-hsin-a126b9179/">
+        <div>Built by Mike Hsin</div>
+      </a>
+      <br />
+      <a href="https://github.com/bchiang7/v4">
+        <div>Designed by Brittany Chiang</div>
+      </a>
+    </StyledCredit>
+  </StyledFooter>
+);
 
 Footer.propTypes = {
   githubInfo: PropTypes.object,

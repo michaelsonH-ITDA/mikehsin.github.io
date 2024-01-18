@@ -1,7 +1,7 @@
 ---
 date: '2023-09-13'
 title: 'Summer Intern'
-company: 'Bloomberg London'
+company: 'Bloomberg'
 location: 'London, UK'
 range: 'June - September 2023'
 url: 'https://www.bloomberg.com/company/offices/bloomberg-london/'

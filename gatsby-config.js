@@ -4,8 +4,8 @@ module.exports = {
   siteMetadata: {
     title: 'Mike Hsin',
     description:
-      'Mike Hsi is a recent Software Systems Engineeering graduate who specializes in solving software problems.',
-    siteUrl: 'https://mikehsin.netlify.app/', // No trailing slash allowed!
+      'Mike Hsin is a recent Software Systems Engineeering graduate who specializes in solving software problems.',
+    siteUrl: 'https://mikehsin.com', // No trailing slash allowed!
     // The above link needs to fix!!!!!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
