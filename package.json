@@ -1,11 +1,11 @@
 {
-  "name": "v1",
+  "name": "v2",
   "description": "Mike Hsin's portfolio website v1",
   "version": "1.0.0",
   "author": "Mike Hsin <michaelsonhsin@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mikehsin"
+    "url": "https://github.com/mikehsin/mikehsin.github.io"
   },
   "keywords": [
     "gatsby"

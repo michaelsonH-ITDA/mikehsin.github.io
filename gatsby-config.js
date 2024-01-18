@@ -4,8 +4,9 @@ module.exports = {
   siteMetadata: {
     title: 'Mike Hsin',
     description:
-      'Mike Hsin is a recent Software Systems Engineeering graduate who specializes in solving software problems.',
+      'Mike Hsin is a recent Software Systems Engineeering graduate who specializes in solving software problems. \n M.S Software Systems Engineering | University College London(UCL) | New Grad | Software Developer | Data Analytics | Python Developer | Java Developer | IT Specialist | Agile & Scrum Practitioner',
     siteUrl: 'https://mikehsin.com', // No trailing slash allowed!
+    // siteUrl: 'https://mikehsin.github.io', // No trailing slash allowed!
     // The above link needs to fix!!!!!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
