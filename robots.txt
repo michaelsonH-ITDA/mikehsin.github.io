@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://mikehsin.github.io/sitemap-index.xml
-Host: https://mikehsin.github.io
+Sitemap: https://mikehsin.com/sitemap-index.xml
+Host: https://mikehsin.com
