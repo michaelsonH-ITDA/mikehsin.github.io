@@ -8,7 +8,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/mike-hsin-a126b9179/',
+      url: 'https://www.linkedin.com/in/mike-hsin/',
     },
   ],
 

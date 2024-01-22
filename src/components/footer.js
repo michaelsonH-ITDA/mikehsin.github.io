@@ -41,7 +41,7 @@ const StyledCredit = styled.div`
 const Footer = () => (
   <StyledFooter>
     <StyledCredit tabindex="-1">
-      <a href="https://www.linkedin.com/in/mike-hsin-a126b9179/">
+      <a href="https://www.linkedin.com/in/mike-hsin/">
         <div>Built by Mike Hsin</div>
       </a>
       <br />
