@@ -5,8 +5,8 @@ module.exports = {
     title: 'Mike Hsin',
     description:
       'Mike Hsin is a recent Software Systems Engineeering graduate who specializes in solving software problems. M.S Software Systems Engineering | University College London(UCL) | New Grad | Software Developer | Data Analytics | Python Developer | Java Developer | IT Specialist | Agile & Scrum Practitioner',
-    // siteUrl: 'https://mikehsin.com', // No trailing slash allowed!
-    siteUrl: 'https://mikehsin.github.io', // No trailing slash allowed!
+    siteUrl: 'https://mikehsin.com', // No trailing slash allowed!
+    // siteUrl: 'https://mikehsin.github.io', // No trailing slash allowed!
     // The above link needs to fix!!!!!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     pathPrefix: '/mikehsin.github.io',
@@ -17,18 +17,8 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
-    {
-      resolve: 'gatsby-plugin-sitemap',
-      options: {
-        serialize: ({ site, allSitePage }) =>
-          allSitePage.nodes.map(node => ({
-            url: site.siteMetadata.siteUrl + node.path,
-            changefreq: 'daily',
-            priority: 0.7,
-          })),
-      },
-    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
