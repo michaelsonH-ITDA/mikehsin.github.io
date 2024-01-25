@@ -4,28 +4,12 @@ module.exports = {
   siteMetadata: {
     title: 'Mike Hsin',
     description:
-      'Mike Hsin is a recent Software Systems Engineeering graduate who specializes in solving software problems. \n M.S Software Systems Engineering | University College London(UCL) | New Grad | Software Developer | Data Analytics | Python Developer | Java Developer | IT Specialist | Agile & Scrum Practitioner',
+      'Mike Hsin is a recent Software Systems Engineeering graduate who specializes in solving software problems. M.S Software Systems Engineering | University College London(UCL) | New Grad | Software Developer | Data Analytics | Python Developer | Java Developer | IT Specialist | Agile & Scrum Practitioner',
     siteUrl: 'https://mikehsin.com', // No trailing slash allowed!
     // siteUrl: 'https://mikehsin.github.io', // No trailing slash allowed!
     // The above link needs to fix!!!!!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     pathPrefix: '/mikehsin.github.io',
-    plugins: [
-      {
-        resolve: `gatsby-plugin-sitemap`,
-        options: {
-          serialize: ({ site }) => [
-            { url: site.siteMetadata.siteUrl },
-            { url: `${site.siteMetadata.siteUrl}/#about` },
-            { url: `${site.siteMetadata.siteUrl}/#jobs` },
-            { url: `${site.siteMetadata.siteUrl}/#projects` },
-            { url: `${site.siteMetadata.siteUrl}/#contact` },
-            { url: `${site.siteMetadata.siteUrl}/resume.pdf` },
-            // Add other URLs here
-          ],
-        },
-      },
-    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -33,8 +17,21 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        serialize: ({ site }) => [
+          { url: site.siteMetadata.siteUrl },
+          { url: `${site.siteMetadata.siteUrl}/#about` },
+          { url: `${site.siteMetadata.siteUrl}/#jobs` },
+          { url: `${site.siteMetadata.siteUrl}/#projects` },
+          { url: `${site.siteMetadata.siteUrl}/#contact` },
+          { url: `${site.siteMetadata.siteUrl}/resume.pdf` },
+          // Add other URLs here
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
