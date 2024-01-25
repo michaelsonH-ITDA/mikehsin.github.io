@@ -9,8 +9,23 @@ module.exports = {
     // siteUrl: 'https://mikehsin.github.io', // No trailing slash allowed!
     // The above link needs to fix!!!!!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '',
     pathPrefix: '/mikehsin.github.io',
+    plugins: [
+      {
+        resolve: `gatsby-plugin-sitemap`,
+        options: {
+          serialize: ({ site }) => [
+            { url: site.siteMetadata.siteUrl },
+            { url: `${site.siteMetadata.siteUrl}/#about` },
+            { url: `${site.siteMetadata.siteUrl}/#jobs` },
+            { url: `${site.siteMetadata.siteUrl}/#projects` },
+            { url: `${site.siteMetadata.siteUrl}/#contact` },
+            { url: `${site.siteMetadata.siteUrl}/resume.pdf` },
+            // Add other URLs here
+          ],
+        },
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -155,7 +170,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-45666519-2',
+        trackingId: 'GTM-P3VSPQGH',
       },
     },
   ],
