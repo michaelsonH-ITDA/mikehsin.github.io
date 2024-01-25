@@ -21,15 +21,12 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-sitemap',
       options: {
-        serialize: ({ site }) => [
-          { url: site.siteMetadata.siteUrl },
-          { url: `${site.siteMetadata.siteUrl}/#about` },
-          { url: `${site.siteMetadata.siteUrl}/#jobs` },
-          { url: `${site.siteMetadata.siteUrl}/#projects` },
-          { url: `${site.siteMetadata.siteUrl}/#contact` },
-          { url: `${site.siteMetadata.siteUrl}/resume.pdf` },
-          // Add other URLs here
-        ],
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.nodes.map(node => ({
+            url: site.siteMetadata.siteUrl + node.path,
+            changefreq: 'daily',
+            priority: 0.7,
+          })),
       },
     },
     {
