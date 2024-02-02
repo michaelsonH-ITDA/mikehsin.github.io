@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
 Sitemap: https://mikehsin.com/sitemap-index.xml
-Host: https://mikehsin.com
