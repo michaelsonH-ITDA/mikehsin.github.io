@@ -74,7 +74,7 @@ const Hero = () => {
     </>
   );
   const five = (
-    <a className="email-link" href={`mailto:${email}`}>
+    <a className="email-link" href={`mailto:${email}`} rel="nofollow">
       Contact to hire me!
     </a>
   );

@@ -67,7 +67,7 @@ const Contact = () => {
         get back to you!
       </p>
 
-      <a className="email-link" href={`mailto:${email}`}>
+      <a className="email-link" href={`mailto:${email}`} rel="nofollow">
         Say Hello
       </a>
     </StyledContactSection>
