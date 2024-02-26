@@ -76,6 +76,10 @@ const StyledProject = styled.li`
     overflow: auto;
   }
 
+  .project-inner a {
+    color: #000000; /* Change this to a color that passes the contrast ratio test */
+  }
+
   .project-top {
     ${({ theme }) => theme.mixins.flexBetween};
     margin-bottom: 35px;

@@ -383,7 +383,11 @@ const Featured = () => {
 
                     <div className="project-links">
                       {cta && (
-                        <a href={cta} aria-label="Course Link" className="cta" rel="nofollow">
+                        <a
+                          href={cta}
+                          aria-label="Learn more about the Featured Project"
+                          className="cta"
+                          rel="nofollow">
                           Learn More
                         </a>
                       )}
